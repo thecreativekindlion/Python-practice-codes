@@ -1,9 +1,10 @@
 
-for sayi in range(100,120): #100 ve 999 dahil arası
-    birinci=sayi//100
-    ikinci=(sayi-(birinci*100))//10
-    ucuncu=sayi%10
+for number in range(100,120): #100 ve 999 dahil arası
+    first=number//100
+    second=(number-(first*100))//10
+    third=number%10
   
-    kuptoplam=birinci**3+ikinci**3+ucuncu**3
-    if sayi==kuptoplam:
-        print(f"{sayi} ARMSTRONG")
+    sum=first**3+second**3+third**3
+    if number==sum:
+        print(f"{number} ARMSTRONG")
+        
